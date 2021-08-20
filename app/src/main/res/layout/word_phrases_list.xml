@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/category_phrases"
+    android:layout_height="88dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:orientation="horizontal">
+                <LinearLayout
+                    android:id="@+id/linear_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/list_item_height"
+                    android:padding="16dp"
+                    android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/miwok_text_view_phrases"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            tools:text="lutti"/>
+                        <TextView
+                            android:id="@+id/default_text_view_phrases"
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="@color/white"
+                            tools:text="one"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/list_item_height"
+                    android:layout_marginRight="16dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/baseline_play_arrow_white_24"/>
+
+        </RelativeLayout>
+</LinearLayout>
